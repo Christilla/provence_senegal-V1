@@ -1,0 +1,360 @@
+*{margin:0 ;
+padding:0 ;}
+
+
+/***********css provence-sénégal**********************/
+
+body{
+width:1500px;
+font-family:arial;
+margin:0 auto;
+}
+
+ul, li {
+list-style:none;
+}
+
+
+h2{
+margin-top:20px;
+}
+
+#container{
+margin:0 auto;}
+
+
+#container p,h1,h2,h3,h4,span{
+margin-bottom:15px;
+}
+
+#container li{
+margin-bottom:15px;
+}
+
+.active {background-color:#35A8E0;}
+
+
+header{
+background: linear-gradient( to top, #E94E1B , #F2C900 );
+color:white;
+}
+
+
+header img{
+float:left;
+margin:20px;
+}
+
+.stop{
+clear:both;
+}
+
+header h1{
+font-size:4em;
+padding:30px;
+}
+
+
+
+/*************menu déroulant******************************/
+
+nav{
+width:100%;
+background-color:#1D70B7;
+display:block;
+}
+
+nav ul li{
+display:inline-block;
+list-style:none;
+text-align:center;
+line-height:30px;
+position:relative;
+width:290px;
+height:30px;
+}
+
+
+nav ul li a{
+text-decoration:none;
+color:white;
+}
+
+nav ul ul {
+position:absolute;
+left:0;
+display:none;
+width:250px;
+}
+
+nav li:hover ul {
+display:block;
+left:0;
+}
+
+nav ul ul li{
+background-color:#1D70B7;
+
+}
+
+nav ul li:hover {
+background-color:#35A8E0;
+
+}
+
+/*******container**********/
+
+#paragraphe{
+text-align:center;
+margin:10px;
+}
+
+#container li {
+margin-left:10px;
+
+}
+
+.frise{
+margin-top:10px;
+margin-bottom:10px;
+}
+
+/**************Activités association***************/
+
+#Activity{
+background: linear-gradient( to top, #E94E1B , #F2C900 );
+height:427px;
+width:100%;
+margin-bottom:10px;
+margin:0 auto;
+}
+
+#Volet1 h2,#Volet2 h2 {
+font-size:2em;
+margin-bottom:10px;
+text-align:center;
+}
+
+#Volet1{
+float:left;
+width:500px;
+
+background-color:;
+text-align:center;
+margin-top:30px;
+}
+
+.decalage{
+background-color:;
+float:right;
+margin-top:150px;
+}
+
+.decalage2{
+background-color:;
+float:left;
+margin-top:150px;
+}
+
+
+#Baobab img{
+float:left;
+}
+
+
+#Volet2{
+float:right;
+width:500px;
+background-color:;
+text-align:center;
+margin-top:30px;
+}
+
+
+/**************Etat des lieux***************/
+
+#Note{
+text-align:justify;
+margin-bottom:10px;
+}
+
+#Note p, #Note h1{
+margin-bottom:10px;
+margin-top:10px;
+}
+
+/*********************Page sociale***************************/
+
+.illustration{
+float:left;
+margin:15px;
+}
+
+
+#Social01{
+float:left;
+text-align:justify;
+margin-top:10px;
+width:1260px;
+}
+
+#Social01 p,h2{
+margin-bottom:10px;
+}
+
+.help{
+font-size:1.2em;
+text-align:center;
+margin-bottom:10px;
+}
+
+.help2{
+font-size:1.2em;
+text-align:justify;
+margin-bottom:10px;
+}
+
+
+#Social02{
+float:left;
+text-align:justify;
+margin-top:40px;
+width:1250px;
+}
+
+#Social02 p, h2{
+margin-bottom:10px;
+}
+
+
+/****************page culturel********************/
+
+.illustrationE{
+margin-top:30px;
+float:left;
+margin:15px;
+margin-top:80px;
+background-color:;
+}
+
+
+#Education{
+float:left;
+text-align:justify;
+margin:5px;
+width:1200px;
+padding:5px;
+}
+
+#Education ul{
+list-style:none;
+margin-bottom:10px;
+}
+
+
+#Education p, h2, h3, h4{
+margin-bottom:10px;
+}
+
+/***************** page Tourisme*******************/
+
+#Tourisme{
+float:left;
+text-align:justify;
+width:1100px;
+background-color:;
+margin-top:10px;
+}
+
+
+#Tourisme p,h3,h2{
+margin-top:3px;
+}
+
+.illustrationT{
+float:left;
+margin-right:30px;
+margin-top:25px;
+margin-bottom:10px;
+}
+
+
+
+/*******************slider*************************/
+
+.photo{
+margin-top:20px;
+text-align:center;
+}
+
+  
+/***********formulaire************/
+
+.Contact h1{
+text-align:center;
+margin-bottom:5px;
+}
+
+#contact1{
+width:100%;
+margin:0 auto;
+text-align:center;
+}
+
+label{
+margin:5px;
+}
+
+textarea{
+width:500px;
+height:100px;
+}
+
+section{
+margin:10px;
+}
+
+/*******************fin container*********************/
+
+/**************footer**************/
+
+footer{
+background: linear-gradient( to top, #E94E1B , #F2C900 );
+color:white;
+text-align:center;
+}
+
+footer img{
+float:left;
+margin-left:30px;
+}
+
+footer ul li{
+display:block;
+list-style:none;
+text-align:center;
+line-height:50px;
+position:relative;
+}
+
+footer ul li a{
+text-decoration:none;
+color:white;
+display:block;
+}
+
+.List{
+width:350px;
+float:left;
+margin-right:10px;
+font-size:1.4em;
+}
+
+
+#mentions{
+background-color:#1D70B7;
+text-align:center;
+color:white;
+line-height:30px;
+font-size:1.2em;
+}
